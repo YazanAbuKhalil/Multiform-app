@@ -11,8 +11,8 @@
   &__form {
     &-options {
       display: grid;
-      grid-template-columns: 33.33% 33.33% 33.33%;
-      column-gap: 30px;
+      grid-template-columns: repeat(3, 32%);
+      column-gap: 2%;
       margin-top: 30px;
     }
 
@@ -50,8 +50,12 @@
     position: absolute;
     width: 90vw;
     left: 0;
-    bottom: -170px;
+    bottom: -127px;
   }
 }
 
-
+@media screen and (max-width: 1000px) {
+  .select-plan {
+    width: 100%;
+  }
+}

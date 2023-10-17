@@ -70,15 +70,16 @@
   .summery {
     width: 100%;
     font-size: 12px;
+    padding: 0;
   }
   .summery__container-buttons {
     position: absolute;
     width: 90vw;
     left: 0;
-    bottom: -290px;
+    bottom: -127px;
   }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1000px) {
   .summery {
     width: 100%;
   }

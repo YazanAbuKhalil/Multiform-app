@@ -21,7 +21,6 @@ export default function MultiFormMain({ handleRestartForm }) {
   };
 
   return (
-    // <Login />
     isLoginClicked ? (
       <Login handleLoginPage={handleLoginPage}/>
     ) : (

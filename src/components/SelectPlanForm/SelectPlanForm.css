@@ -15,9 +15,9 @@
 }
 .select-plan__form-options {
   display: grid;
-  grid-template-columns: 33.33% 33.33% 33.33%;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  grid-template-columns: repeat(3, 32%);
+  -moz-column-gap: 2%;
+       column-gap: 2%;
   margin-top: 30px;
 }
 .select-plan__form-buttons {
@@ -41,6 +41,11 @@
     position: absolute;
     width: 90vw;
     left: 0;
-    bottom: -170px;
+    bottom: -127px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .select-plan {
+    width: 100%;
   }
 }/*# sourceMappingURL=SelectPlanForm.css.map */

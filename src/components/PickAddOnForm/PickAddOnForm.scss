@@ -20,6 +20,7 @@
 @media screen and (max-width: 768px) {
   .pickadd-on {
     width: 100%;
+    padding: 0;
 
     &__form {
       font-size: 12px;
@@ -27,13 +28,17 @@
       &-buttons {
         margin-top: 0;
         position: absolute;
-        bottom: -220px;
+        bottom: -127px;
         justify-content: space-between;
         width: 90vw;
         left: 0;
-
       }
     }
   }
 }
 
+@media screen and (max-width: 1000px) {
+  .pickadd-on {
+    width: 100%;
+  }
+}

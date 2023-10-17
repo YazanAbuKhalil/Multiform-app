@@ -23,7 +23,6 @@ export default function ResultsTable({handleLoginPage}) {
 
 
   return (
-    <div className="table-container">
       <table>
         <thead className="table__header">
           <tr>
@@ -61,10 +60,5 @@ export default function ResultsTable({handleLoginPage}) {
           ))}
         </tbody>
       </table>
-
-      <Button onClick={handleClear} backgroundColor="hsl(213, 96%, 18%)" color="#fff">
-        Clear
-      </Button>
-    </div>
   );
 }

@@ -47,10 +47,12 @@
 }
 
 .results-login {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 30px;
   height: 50vw;
+  width: 90%;
 }
 .results-login button {
   align-self: center;

@@ -52,3 +52,13 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .tab__number {
+        font-size: 10px;
+    }
+
+    .tab__content {
+        font-size: 12px;
+    }
+}

@@ -51,9 +51,15 @@
 
     .form__buttons {
       width: 90vw;
-      position: absolute;
-      bottom: -250px;
+      position: fixed;
+      bottom: -127px;
       right: 0;
     }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .personal-info {
+    width: 100%;
   }
 }
