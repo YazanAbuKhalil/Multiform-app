@@ -5,7 +5,8 @@
 
 @media screen and (max-width: 768px) {
   .form-container {
-    transform: translateY(-70px);
+    position: relative;
+    top: -70px;
     background-color: #fff;
     width: 90%;
     margin: 0 auto;

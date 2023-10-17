@@ -38,10 +38,12 @@
 }
 @media screen and (max-width: 768px) {
   .select-plan__form-buttons {
-    position: absolute;
-    width: 90vw;
+    position: fixed;
     left: 0;
-    bottom: -127px;
+    bottom: 10px;
+    padding: 10px;
+    width: 100vw;
+    background-color: #fff;
   }
 }
 @media screen and (max-width: 1000px) {

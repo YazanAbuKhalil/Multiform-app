@@ -52,10 +52,12 @@
     padding: 0;
   }
   .personal-info .form__buttons {
-    width: 90vw;
     position: fixed;
-    bottom: -127px;
-    right: 0;
+    left: 0;
+    bottom: 10px;
+    padding: 30px;
+    width: 100vw;
+    background-color: #fff;
   }
 }
 @media screen and (max-width: 1000px) {

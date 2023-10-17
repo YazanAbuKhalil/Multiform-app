@@ -50,10 +50,12 @@
     padding: 0;
 
     .form__buttons {
-      width: 90vw;
-      position: fixed;
-      bottom: -127px;
-      right: 0;
+        position: fixed;
+        left: 0;
+        bottom: 10px;
+        padding: 30px;
+        width: 100vw;
+        background-color: #fff;
     }
   }
 }
