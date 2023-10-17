@@ -1,0 +1,61 @@
+@import "../../defaultSetting";
+
+.table-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    // height: 80%;
+    gap: 40px;
+
+    table {
+        border-spacing: 0;
+
+        th, td {
+            border: 0.5px solid $cool-grey;
+        }
+        thead th {
+            padding: 10px;
+            text-align: center;
+            // background-color: #f8bcbc;
+            background-color: $marine-blue;
+            color: white;
+        }
+
+        tbody td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        
+    }
+
+    button {
+        align-self: center;
+    }
+
+
+
+
+}
+
+.delete-cell {
+    color: red;
+    cursor: pointer;
+}
+
+.delete-cell:hover {
+    opacity: 0.7;
+}
+
+// @media screen and (max-width: 768px)  {
+//     .table-container {
+//         table {
+//             // display: block;
+//             overflow-x: scroll;
+//           }
+//           thead {
+//           }
+//     }
+// }

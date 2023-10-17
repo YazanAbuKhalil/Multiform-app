@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.subsicription-item {
+  border: 1px solid hsl(229, 24%, 87%);
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+.subsicription-item__label {
+  cursor: pointer;
+}
+.subsicription-item__label img {
+  margin-bottom: 50px;
+}
+.subsicription-item__label-type {
+  color: hsl(213, 96%, 18%);
+  margin-bottom: 5px;
+}
+.subsicription-item__label-cost {
+  color: hsl(231, 11%, 63%);
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.subsicription-item__label-freemonths {
+  color: hsl(213, 96%, 18%);
+  font-size: 12px;
+}
+
+.subsicription-item:hover {
+  background-color: hsl(217, 100%, 97%);
+  border-color: hsl(213, 96%, 18%);
+}
+
+.active-plan {
+  background-color: hsl(217, 100%, 97%);
+  border-color: hsl(213, 96%, 18%);
+}
+
+@media screen and (max-width: 768px) {
+  .subsicription-item__label {
+    display: flex;
+    gap: 10px;
+    height: auto;
+  }
+  .subsicription-item__label img {
+    margin-bottom: 0;
+  }
+}/*# sourceMappingURL=SubsicriptionItem.css.map */

@@ -1,0 +1,13 @@
+@import "../../defaultSetting";
+
+.form-header {
+    line-height: 1.5;
+
+    h2 {
+        color: $marine-blue;
+    }
+    p {
+        color: $cool-grey;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-image: url("../../../public/assets/images/bg-sidebar-desktop.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  border-radius: 10px;
+  height: 600px;
+}
+.sidebar button {
+  display: block;
+  margin: 0 auto;
+}
+.sidebar button:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    height: auto;
+    background-image: url("../../../public/assets/images/bg-sidebar-mobile.svg");
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    border-radius: 0;
+  }
+  .sidebar button {
+    margin-top: 8px;
+  }
+}/*# sourceMappingURL=sidebar.css.map */

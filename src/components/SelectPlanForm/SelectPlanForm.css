@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.select-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 auto;
+  padding: 40px 30px 0 30px;
+  width: 70%;
+}
+.select-plan__form-options {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin-top: 30px;
+}
+.select-plan__form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .select-plan {
+    width: 100%;
+    padding: 0;
+  }
+  .select-plan__form-options {
+    grid-template-columns: 100%;
+    row-gap: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .select-plan__form-buttons {
+    position: absolute;
+    width: 90vw;
+    left: 0;
+    bottom: -170px;
+  }
+}/*# sourceMappingURL=SelectPlanForm.css.map */

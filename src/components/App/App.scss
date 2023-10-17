@@ -1,0 +1,21 @@
+@import "../../defaultSetting";
+
+
+.app {
+  font-family: $font-family;
+  font-size: $font-size-paragraph;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: $magnolia;
+}
+
+@media screen and (max-width: 768px)
+ {
+   .app {
+    align-items: flex-start;
+    height: 90vh;
+   }
+ }

@@ -1,0 +1,55 @@
+@import "../../defaultSetting";
+
+.subsicription-item {
+    border: 1px solid $light-gray;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+
+    &__label {
+        cursor: pointer;
+        img {
+            margin-bottom: 50px;
+        }
+
+        &-type {
+            color: $marine-blue;
+            margin-bottom: 5px;
+        }
+
+        &-cost {
+            color: $cool-grey;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        &-freemonths {
+            color: $marine-blue;
+            font-size: 12px;
+        }
+}
+}
+
+.subsicription-item:hover  {
+    background-color: $magnolia;
+    border-color: $marine-blue;
+}
+
+.active-plan {
+    background-color: $magnolia;
+    border-color: $marine-blue;
+}
+
+@media screen and (max-width: 768px) {
+    .subsicription-item {
+        &__label {
+            display: flex;
+            gap: 10px;
+            height: auto;
+
+            img {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

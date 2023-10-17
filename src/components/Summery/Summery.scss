@@ -1,0 +1,90 @@
+@import "../../defaultSetting";
+
+.summery {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 0 auto;
+  padding: 40px 30px 0 30px;
+  width: 70%;
+
+  &__header {
+    line-height: 1.5;
+    h2 {
+      color: $marine-blue;
+    }
+    p {
+      color: $cool-grey;
+      font-size: 14px;
+    }
+  }
+
+  &__container {
+    background-color: $alabaster;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    &-subsicription {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &-type,
+      &-cost {
+        color: $marine-blue;
+        font-weight: $font-weight-medium;
+      }
+    }
+
+    &-services {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    &-total {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    &-buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 100px;
+    }
+  }
+}
+
+.lbl-total {
+  color: $cool-grey;
+}
+
+.total-price {
+  color: $purplish-blue;
+  font-weight: $font-weight-bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .summery {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .summery__container-buttons {
+    position: absolute;
+    width: 90vw;
+    left: 0;
+    bottom: -290px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+    .summery {
+        width: 100%;
+    }
+}

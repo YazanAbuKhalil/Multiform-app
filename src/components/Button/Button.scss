@@ -1,0 +1,9 @@
+@import "../../defaultSetting";
+
+@media screen and (max-width: 768px) {
+    .back {
+        position: absolute;
+        left: 0;
+        bottom: -200px
+    }
+}

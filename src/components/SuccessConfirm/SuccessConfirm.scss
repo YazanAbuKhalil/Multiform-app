@@ -1,0 +1,21 @@
+@import "../../defaultSetting";
+
+.final-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    gap: 20px;
+
+    &__title {
+        color: $marine-blue;
+    }
+
+    &__description {
+        color: $cool-grey;
+    }
+}
+

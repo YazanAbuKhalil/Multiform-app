@@ -1,0 +1,29 @@
+@import "../../defaultSetting";
+
+.pick-on-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border: 1px solid $light-gray;
+    border-radius: 8px;
+
+    &__details {
+        display: flex;
+        gap: 20px;
+
+        &-service {
+            color: $marine-blue;
+            font-weight: $font-weight-bold;
+            margin-bottom: 6px;
+        }
+
+        &-description {
+            color: $cool-grey;
+        }
+    }
+
+    &__cost {
+        color: $purplish-blue ;
+    }
+}

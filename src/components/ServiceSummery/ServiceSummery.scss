@@ -1,0 +1,16 @@
+@import "../../defaultSetting";
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $alabaster;
+
+    &__name {
+        color: $cool-grey;
+    }
+
+    &__cost {
+        color: $marine-blue;
+    }
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.personal-info {
+  padding: 30px;
+  margin: 0 auto;
+  width: 70%;
+}
+.personal-info form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.personal-info form input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.personal-info form label {
+  margin-bottom: 5px;
+}
+.personal-info form .label-container {
+  display: flex;
+  justify-content: space-between;
+}
+.personal-info form .form__buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.input-error {
+  display: inline-block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 8px;
+  color: red;
+  font-size: 10px;
+  margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .personal-info {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0;
+  }
+  .personal-info .form__buttons {
+    width: 90vw;
+    position: absolute;
+    bottom: -250px;
+    right: 0;
+  }
+}/*# sourceMappingURL=PersonalInfoForm.css.map */

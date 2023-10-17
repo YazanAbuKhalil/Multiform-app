@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 80%;
+  max-width: 1440px;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 275px 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr;
+    background-color: hsl(217, 100%, 97%);
+    padding: 0;
+    width: 100%;
+  }
+}/*# sourceMappingURL=MultiFormMain.css.map */

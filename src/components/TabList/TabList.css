@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.tab-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  list-style: none;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .tab-list {
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 20px;
+  }
+}/*# sourceMappingURL=TabList.css.map */

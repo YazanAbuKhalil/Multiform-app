@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.summery {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 0 auto;
+  padding: 40px 30px 0 30px;
+  width: 70%;
+}
+.summery__header {
+  line-height: 1.5;
+}
+.summery__header h2 {
+  color: hsl(213, 96%, 18%);
+}
+.summery__header p {
+  color: hsl(231, 11%, 63%);
+  font-size: 14px;
+}
+.summery__container {
+  background-color: hsl(231, 100%, 99%);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.summery__container-subsicription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.summery__container-subsicription-type, .summery__container-subsicription-cost {
+  color: hsl(213, 96%, 18%);
+  font-weight: 500;
+}
+.summery__container-services {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.summery__container-total {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.summery__container-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.lbl-total {
+  color: hsl(231, 11%, 63%);
+}
+
+.total-price {
+  color: hsl(243, 100%, 62%);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .summery {
+    width: 100%;
+    font-size: 12px;
+  }
+  .summery__container-buttons {
+    position: absolute;
+    width: 90vw;
+    left: 0;
+    bottom: -290px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .summery {
+    width: 100%;
+  }
+}/*# sourceMappingURL=Summery.css.map */

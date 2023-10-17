@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(231, 100%, 99%);
+}
+.service__name {
+  color: hsl(231, 11%, 63%);
+}
+.service__cost {
+  color: hsl(213, 96%, 18%);
+}/*# sourceMappingURL=ServiceSummery.css.map */

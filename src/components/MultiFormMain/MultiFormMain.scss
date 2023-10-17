@@ -1,0 +1,20 @@
+@import "../../defaultSetting";
+
+.main-container {
+  background-color: $white;
+  width: 80%;
+  max-width: 1440px;
+  display: grid;
+  padding: 20px;
+  grid-template-columns: 275px 1fr;
+}
+
+@media screen and (max-width: 768px) {
+  .main-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 1fr;
+    background-color: $magnolia;
+    padding: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,67 @@
+@import "../../defaultSetting";
+
+.login {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    border: 1px solid $cool-grey;
+    padding: 20px;
+    border-radius: 10px;
+
+    h2 {
+        color: $marine-blue;
+        align-self: flex-start;
+        font-size: 25px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        input {
+            padding: 15px;
+        }
+
+        button {
+            padding: 15px;
+            background-color: $marine-blue;
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        button:hover {
+            opacity: 0.9;
+        }
+
+        
+    }
+    
+}
+
+.login-error {
+    color: red;
+    font-size: 10px;
+    align-self: center;
+}
+
+.results-login {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 50vw;
+
+    button {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width: 768px)  {
+    .login {
+        width: 90%;
+    } 
+}
